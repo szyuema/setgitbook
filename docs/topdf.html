@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>GitBook安装 | GitBook</title>
+        <title>制作pdf | GitBook</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -37,10 +37,8 @@
         
     
     
-    <link rel="next" href="./gitbook-config.html" />
     
-    
-    <link rel="prev" href="./node.html" />
+    <link rel="prev" href="./needfile.html" />
     
 
         
@@ -49,9 +47,9 @@
         
         
     <div class="book"
-        data-level="1.2"
-        data-chapter-title="GitBook安装"
-        data-filepath="gitbook.md"
+        data-level="2.2"
+        data-chapter-title="制作pdf"
+        data-filepath="topdf.md"
         data-basepath="."
         data-revision="Wed Dec 28 2016 12:06:34 GMT+0800 (中国标准时间)"
         data-innerlanguage="">
@@ -120,7 +118,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="gitbook.html">
+        <li class="chapter " data-level="1.2" data-path="gitbook.html">
             
                 
                     <a href="./gitbook.html">
@@ -171,7 +169,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="topdf.html">
+        <li class="chapter active" data-level="2.2" data-path="topdf.html">
             
                 
                     <a href="./topdf.html">
@@ -226,22 +224,33 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="gitbook">GitBook</h1>
-<blockquote>
-<p>GitBook &#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; Node.js &#x7684;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#xFF0C;&#x53EF;&#x4F7F;&#x7528; Github/Git &#x548C; Markdown &#x6765;&#x5236;&#x4F5C;&#x7CBE;&#x7F8E;&#x7684;&#x7535;&#x5B50;&#x4E66;&#x3002;&#x901A;&#x8FC7;Node.js&#x547D;&#x4EE4;&#x5B89;&#x88C5;GitBook</p>
-</blockquote>
-<h2 id="1&#x3001;nmp&#x5B89;&#x88C5;gitbook">1&#x3001;NMP&#x5B89;&#x88C5;Gitbook</h2>
-<pre><code class="lang-json">npm install gitbook -g
+                        <h1 id="&#x8F6C;&#x6362;&#x6210;pdf">&#x8F6C;&#x6362;&#x6210;pdf</h1>
+<ol>
+<li><p>&#x4E0B;&#x8F7D;PDF</p>
+<pre><code class="lang-bash">npm install gitbook -g
 </code></pre>
-<h2 id="2&#x3001;&#x5B89;&#x88C5;gitbook-cli">2&#x3001;&#x5B89;&#x88C5;gitbook CLI</h2>
+</li>
+<li><p>win&#x4E0B;&#x4E0A;&#x8FF0;&#x6B65;&#x9AA4;&#x4F1A;&#x51FA;&#x9519;</p>
+</li>
+</ol>
+<p><code>&#x539F;&#x56E0;</code></p>
 <blockquote>
-<p>&#x60F3;&#x5728;&#x7CFB;&#x7EDF;&#x4E0A;&#x7684;&#x4EFB;&#x4F55;&#x5730;&#x65B9;&#x7684;gitbook&#x547D;&#x4EE4;&#xFF0C;&#x9700;&#x8981;&#x5B89;&#x88C5;&#x201C;gitbook CLI&#x201D;&#xFF0C;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;</p>
+<p>&#x8C8C;&#x4F3C;&#x56E0;&#x4E3A;&#x88AB;&#x5899;&#x4E86;&#xFF0C;&#x4E0B;&#x8F7D;&#x4E0D;&#x5230;phantomjs&#x76F8;&#x5173;&#x6587;&#x4EF6;</p>
 </blockquote>
-<pre><code class="lang-json"><span class="hljs-comment">//&#x5B89;&#x88C5;&#x547D;&#x4EE4;</span>
-npm install -g gitbook-cli
-<span class="hljs-comment">//&#x5378;&#x8F7D;&#x547D;&#x4EE4;</span>
-npm uninstall -g gitbook
-</code></pre>
+<p><code>&#x89E3;&#x51B3;&#x529E;&#x6CD5;</code></p>
+<p><a href="http://pan.baidu.com/s/1dEEuTUT" target="_blank">&#x70B9;&#x51FB;&#x8FD9;&#x91CC;&#x4E0B;&#x8F7D;phantomjs</a></p>
+<blockquote>
+<p>&#x538B;&#x7F29;&#x5305;&#x89E3;&#x538B;&#x5230;&#x67D0;&#x4E2A;&#x76EE;&#x5F55;&#xFF0C;&#x5982;&#xFF1A;E:\Program Files\phantomjs&#xFF0C;&#x5E76;&#x5C06;&#x6B64;&#x76EE;&#x5F55;&#x6DFB;&#x52A0;&#x5230;&#x7CFB;&#x7EDF;&#x53D8;&#x91CF;path&#x4E2D;</p>
+</blockquote>
+<p>3.win &#x4E0B;&#x8F7D; ebook-conver</p>
+<p>&#x76F4;&#x63A5;&#x5230; <a href="http://www.calibre-ebook.com/download_windows" target="_blank">http://www.calibre-ebook.com/download_windows</a> &#x4E0B;&#x8F7D;&#xFF1A;
+&#x6216;&#x8005;<a href="http://pan.baidu.com/s/1eR4j6j4" target="_blank">&#x70B9;&#x51FB;&#x8FD9;&#x91CC;&#x4E0B;&#x8F7D;ebook-conver</a></p>
+<p>4.&#x5C01;&#x9762;</p>
+<blockquote>
+<p>&#x5C01;&#x9762;&#x6587;&#x4EF6;&#x4E3A;: /cover.jpg.
+&#x5C3A;&#x5BF8;&#x4E3A; 1800x2360. &#x63D2;&#x4EF6; autocover&#x53EF;&#x4EE5;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;.
+&#x5C01;&#x9762;&#x7684;&#x5C0F;&#x5C3A;&#x5BF8;&#x56FE;&#x5F62;&#x4E3A;: /cover_small.jpg.</p>
+</blockquote>
 
                     
                     </section>
@@ -252,10 +261,8 @@ npm uninstall -g gitbook
         </div>
 
         
-        <a href="./node.html" class="navigation navigation-prev " aria-label="Previous page: Node安装"><i class="fa fa-angle-left"></i></a>
+        <a href="./needfile.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 相关文件"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="./gitbook-config.html" class="navigation navigation-next " aria-label="Next page: GitBook配置"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
