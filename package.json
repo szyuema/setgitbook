@@ -4,7 +4,7 @@
   "description": "gitbook study",
   "main": "index.js",
   "scripts": {
-    "serve-gitbook": "gitbook serve ./content ./docs",
+    "serve": "gitbook serve ./content ./docs",
     "generate-gitbook": "gitbook build ./content ./docs",
     "generate-wiki": "node ./scripts/generate-wiki.js",
     "deploy-wiki": "./scripts/deploy-wiki.sh",
