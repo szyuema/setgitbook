@@ -1,54 +1,52 @@
 {
-    "title": "GitBook",
-    "description": "mayue ",
-    "language": "zh-cn",
-    "plugins": [
-        "github",
-        "editlink"
-    ],
+  "title": "GitBook",
+  "description": "mayue ",
+  "language": "zh-cn",
+  "plugins": ["github", "editlink"],
 
-    "pluginsConfig": {
-        "github": {
-            "url": ""
-        },
-        "editlink": {
-            "base": "",
-            "label": "编辑本页"
-        },
-        "sharing": {
-            "weibo": true,
-            "twitter": false,
-            "facebook": false
-        },
-        "fontSettings": {
-            "theme": "night",
-            "family": "sans",
-            "size":1
-        }
+  "pluginsConfig": {
+    "github": {
+      "url": ""
     },
-
-    "links": {
-        "sidebar": {
-            "个人博客": "https://szyuema.github.io/"
-        },
-        "sharing": {
-            "google": null,
-            "facebook": null,
-            "twitter": null,
-            "weibo": null,
-            "all": null
-        }
+    "editlink": {
+      "base": "https://github.com/szyuema/setgitbook/tree/gh-pages/content",
+      "label": "编辑本页"
     },
-    "pdf": {
-        "toc": true,
-        "pageNumbers": true,
-        "fontSize": 12,
-        "paperSize": "a4",
-        "margin": {
-            "right": 62,
-            "left": 62,
-            "top": 36,
-            "bottom": 36
-        }
+    "sharing": {
+      "weibo": true,
+      "twitter": false,
+      "facebook": false
+    },
+    "fontSettings": {
+      "theme": "night",
+      "family": "sans",
+      "size": 1
     }
+  },
+
+  "links": {
+    "sidebar": {
+        "项目github": "https://github.com/szyuema/setgitbook",
+        "个人博客": "https://szyuema.github.io/"
+    },
+    "sharing": {
+      "google": null,
+      "facebook": null,
+      "twitter": null,
+      "weibo": null,
+      "all": null
+    }
+  },
+  "pdf": {
+    "toc": true,
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 36,
+      "bottom": 36
+    }
+  }
 }
